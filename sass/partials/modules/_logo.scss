@@ -1,0 +1,12 @@
+.logo{
+	.logo-title{
+		@include font-size(35);
+		color: $grey-dark;
+		width: 22%;
+		border-bottom: 2px solid $grey-dark;
+	}
+	.logo-title{
+		margin-left: 20px;
+	}
+}
+

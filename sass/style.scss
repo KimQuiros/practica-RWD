@@ -1,0 +1,15 @@
+//  #partials
+@import "partials/normalize";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/globals";
+
+//	#modules
+@import "partials/modules/logo";
+@import "partials/modules/navegation";
+@import "partials/modules/colors";
+@import "partials/modules/article";
+@import "partials/modules/titles";
+@import "partials/modules/images";
+@import "partials/modules/button";
+@import "partials/modules/social-networks";

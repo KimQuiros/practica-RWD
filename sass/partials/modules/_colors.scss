@@ -1,0 +1,24 @@
+.colors{
+	.color{
+		@include font-size(13);
+		display: inline-block;
+		margin-top: 20px;
+		margin-left: 20px;
+		width: 9%;
+	  height: 109px;
+	}
+	.color-grey{
+		background-color: $grey;
+	}
+	.color-grey-dark{
+		background-color: $grey-dark;
+		color: $white;
+	}
+	.color-black{
+		background-color: $black;
+		color: $white;
+	}
+	.color-white{
+		border: 1px solid $black;
+	}
+}

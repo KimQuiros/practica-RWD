@@ -1,0 +1,27 @@
+.articles-news{
+	margin-top: 20px;
+	background-color: $grey;
+	width: 16%;
+  height: 247px;
+  .articles-news-images{
+  	background-color: #fff;
+    top: 11px;
+    position: relative;
+    width: 81%;
+    left: 19px;
+    height: 96px;
+  }
+  .articles-news-titles{
+  	@include font-size(17);
+		margin: 22px 0 1px 20px;
+  }
+  .articles-news-date{
+  	@include font-size(11);
+		margin-left: 20px;
+  }
+  .articles-news-text{
+  	@include font-size(11);
+		width: 66%;
+    margin: 9px 0 15px 20px;
+  }
+}
