@@ -1,0 +1,11 @@
+.fonts{
+	.font-quicksand{
+		@include font-size(17);
+		font-family: $quicksand;
+		margin-top: 20px;
+	}
+	.font-lifeSavers{
+		@include font-size(17);
+		font-family: $lifeSavers;
+	}
+}

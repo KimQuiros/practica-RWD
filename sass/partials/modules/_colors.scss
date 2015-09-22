@@ -7,18 +7,19 @@
 		width: 9%;
 	  height: 109px;
 	}
-	.color-grey{
-		background-color: $grey;
-	}
-	.color-grey-dark{
-		background-color: $grey-dark;
+	.color-green{
+		background-color: $green;
 		color: $white;
 	}
-	.color-black{
-		background-color: $black;
+	.color-pink{
+		background-color: $pink;
+		color: $white;
+	}
+	.color-blue{
+		background-color: $blue;
 		color: $white;
 	}
 	.color-white{
-		border: 1px solid $black;
+		border: 1px solid #000;
 	}
 }

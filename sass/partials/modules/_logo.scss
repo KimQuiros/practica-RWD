@@ -1,9 +1,9 @@
 .logo{
 	.logo-title{
+		font-family: $lifeSavers;
 		@include font-size(35);
-		color: $grey-dark;
-		width: 22%;
-		border-bottom: 2px solid $grey-dark;
+		color: #000;
+		width:336px;
 	}
 	.logo-title{
 		margin-left: 20px;
