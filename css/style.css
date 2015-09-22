@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Life+Savers);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
 article,
 aside,
 details,
@@ -202,7 +204,7 @@ html {
 .title {
   font-size: 13px;
   font-size: 1.3rem;
-  border-bottom: 1px solid #1D1D1B; }
+  border-bottom: 1px solid #000; }
 
 .container {
   margin-top: 20px;
@@ -211,11 +213,11 @@ html {
   width: 95%; }
 
 .logo .logo-title {
+  font-family: "Life Savers", cursive;
   font-size: 35px;
   font-size: 3.5rem;
-  color: #5F5A5D;
-  width: 22%;
-  border-bottom: 2px solid #5F5A5D; }
+  color: #000;
+  width: 336px; }
 .logo .logo-title {
   margin-left: 20px; }
 
@@ -225,7 +227,8 @@ html {
   .nav-list a {
     font-size: 16px;
     font-size: 1.6rem;
-    color: #1D1D1B;
+    font-family: "Quicksand", sans-serif;
+    color: #000;
     margin-right: 20px; }
 
 .colors .color {
@@ -236,21 +239,33 @@ html {
   margin-left: 20px;
   width: 9%;
   height: 109px; }
-.colors .color-grey {
-  background-color: #EEECED; }
-.colors .color-grey-dark {
-  background-color: #5F5A5D;
+.colors .color-green {
+  background-color: #4F8A83;
   color: #fff; }
-.colors .color-black {
-  background-color: #1D1D1B;
+.colors .color-pink {
+  background-color: #E76278;
+  color: #fff; }
+.colors .color-blue {
+  background-color: #255E7E;
   color: #fff; }
 .colors .color-white {
-  border: 1px solid #1D1D1B; }
+  border: 1px solid #000; }
+
+.fonts .font-quicksand {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-family: "Quicksand", sans-serif;
+  margin-top: 20px; }
+.fonts .font-lifeSavers {
+  font-size: 17px;
+  font-size: 1.7rem;
+  font-family: "Life Savers", cursive; }
 
 .articles-news {
   margin-top: 20px;
-  background-color: #EEECED;
-  width: 16%;
+  margin-left: 20px;
+  background-color: #000;
+  width: 206px;
   height: 247px; }
   .articles-news .articles-news-images {
     background-color: #fff;
@@ -277,7 +292,7 @@ html {
   font-size: 11px;
   font-size: 1.1rem;
   background: #fff;
-  border: 1px solid #1D1D1B;
+  border: 1px solid #000;
   padding: 5px 14px;
   margin-left: 20px;
   margin-top: -3px; }
